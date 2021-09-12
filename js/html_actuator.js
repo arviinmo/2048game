@@ -106,7 +106,7 @@ HTMLActuator.prototype.positionClass = function (position) {
 HTMLActuator.prototype.updateScore = function (score) {
   this.clearContainer(this.scoreContainer);
 
-  const difference = score - this.score;
+  var difference = score - this.score;
   this.score = score;
 
   this.scoreContainer.textContent = this.score;

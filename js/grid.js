@@ -8,7 +8,7 @@ Grid.prototype.empty = function () {
   var cells = [];
 
   for (var x = 0; x < this.size; x++) {
-    const row = cells[x] = [];
+    var row = cells[x] = [];
 
     for (var y = 0; y < this.size; y++) {
       row.push(null);
