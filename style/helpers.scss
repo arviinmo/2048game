@@ -5,7 +5,7 @@
   // reset value
   $value: $base;
   // positive intergers get multiplied
-  @if $exponent > 1 {
+  @if $exponent > 2 {
     @for $i from 2 through $exponent {
       $value: $value * $base; } }
   // negitive intergers get divided. A number divided by itself is 1

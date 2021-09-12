@@ -4,7 +4,7 @@
     return;
   }
 
-  var prototype = Array.prototype,
+  const prototype = Array.prototype,
       push = prototype.push,
       splice = prototype.splice,
       join = prototype.join;

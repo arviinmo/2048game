@@ -20,7 +20,7 @@
     };
   }
 
-  if (!window.cancelAnimationFrame) {
+  else (!window.cancelAnimationFrame) {
     window.cancelAnimationFrame = function (id) {
       clearTimeout(id);
     };
